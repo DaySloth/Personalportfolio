@@ -1,10 +1,25 @@
+/*
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Ubuntu Condensed', sans-serif;
+
+
+*/
+
+/* Global Styling */
 body {
     background: #c2c2c2;
     position: relative;
+    font-family: 'Quattrocento Sans', sans-serif, serif;
 }
 
-h3 {
+nav {
+    border-bottom: 2px solid #00e1ff;
+}
+
+h3, h4 {
     color: #00e1ff;
+    font-family: 'Ubuntu Condensed', sans-serif, Georgia, 'Times New Roman', Times, serif;
 }
 
 footer {
@@ -19,6 +34,7 @@ footer {
 .navbar .navbar-brand {
     font-size: 2em;
     color: #00e1ff;
+    font-family: 'Righteous', cursive, Georgia, 'Times New Roman', Times, serif;
 }
 
 .btn-outline-primary {
@@ -39,6 +55,14 @@ footer {
     border: 2px solid #00e1ff;
 }
 
+/* Index Styling */
+
+img.thumbnail {
+    width: 200px;
+}
+
+/* Portfolio Page Styling */
+
 .card {
     color: white;
     padding: 20px;
@@ -46,4 +70,23 @@ footer {
     background: #696969;
     border: 2px solid #00e1ff;
 }
+
+/* Contact Page Styling */
+
+.contact-logos {
+    text-align: center;
+}
+
+.contact-logos img {
+    width: 40px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
 

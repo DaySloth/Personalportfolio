@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
 </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Allister</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="./index.html">Allister</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,6 +28,32 @@
                 </ul>
             </div>
         </nav>
+
+        
+        <form class="container section">
+            <h3>Contact</h3>
+            <hr/>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
+        </form>
+
+
+        <footer>
+            <div class="container">
+                <p>&copy; Allister Rampenthal</p>
+            </div>
+        </footer>
     </body>
 
     <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->

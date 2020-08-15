@@ -1,0 +1,49 @@
+body {
+    background: #c2c2c2;
+    position: relative;
+}
+
+h3 {
+    color: #00e1ff;
+}
+
+footer {
+    color: #00e1ff;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #696969;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.navbar .navbar-brand {
+    font-size: 2em;
+    color: #00e1ff;
+}
+
+.btn-outline-primary {
+    border-color: #00e1ff;
+    color: #00e1ff;
+}
+.btn-outline-primary:hover {
+    background-color: #00e1ff;
+    border-color: #00e1ff;
+}
+
+.section {
+    margin-top: 50px;
+    color: #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #00e1ff;
+}
+
+.card {
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    background: #696969;
+    border: 2px solid #00e1ff;
+}
+

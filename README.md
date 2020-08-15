@@ -1,2 +1,2 @@
 # Personalportfolio
-![Image of Webpage](https://imgur.com/a/gEOrZMI)
+![Image of Webpage](https://i.imgur.com/Fof2vzC.png)

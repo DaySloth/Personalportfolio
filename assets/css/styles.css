@@ -96,6 +96,46 @@ img.thumbnail {
 
 
 
+.testing{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.testing p{
+    font-size: 40px;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.typed-text{
+    color: orange;
+    font-weight: normal;
+}
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: white;
+    margin-left: .2em;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing{
+    animation: none;
+}
+
+@keyframes blink {
+    0% {background-color: white;}
+    49% {background-color: white;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: white;}
+}
+
+
+
 
 
 

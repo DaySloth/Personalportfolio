@@ -23,7 +23,10 @@ body {
 }
 
 .main-page{
-    background: url('../img/chicago-background.jpg') top left no-repeat;
+    background: url('../img/chicago-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 nav {
@@ -39,9 +42,12 @@ footer {
     color: #00e1ff;
     margin-top: 100px;
     padding: 20px;
-    background-color: #696969;
+    background-color: #696969d2;
     text-align: center;
     font-size: 1.2em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .navbar .navbar-brand {
@@ -95,15 +101,14 @@ img.thumbnail {
     margin: 10px;
 }
 
-
-
-
-
-
+/* typing div styling */
 .testing{
-    background-color: black;
+    background-color: #838383bd;
     color: white;
     text-align: center;
+    margin-top: 300px;
+    border-radius: 50px;
+    width: 600px;
 }
 
 .testing p{
@@ -114,7 +119,7 @@ img.thumbnail {
 }
 
 .typed-text{
-    color: orange;
+    color: #00e1ff;
     font-weight: normal;
 }
 
@@ -138,6 +143,12 @@ img.thumbnail {
     100% {background-color: white;}
 }
 
+@media only screen and (max-width: 600px){
+    .testing{
+        border-radius: 0px;
+        width: 100%;
+    }
+}
 
 
 

@@ -102,7 +102,7 @@ img.thumbnail {
 }
 
 /* typing div styling */
-.testing{
+.text-container{
     background-color: #838383bd;
     color: white;
     text-align: center;
@@ -111,7 +111,7 @@ img.thumbnail {
     width: 600px;
 }
 
-.testing p{
+.text-container p{
     font-size: 40px;
     font-weight: bold;
     overflow: hidden;
@@ -144,7 +144,7 @@ img.thumbnail {
 }
 
 @media only screen and (max-width: 600px){
-    .testing{
+    .text-container{
         border-radius: 0px;
         width: 100%;
     }

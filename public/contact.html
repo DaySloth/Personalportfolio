@@ -42,7 +42,7 @@
     </nav><!-- End Nav Bar -->
 
     <!-- Contact Form -->
-    <form class="container section">
+    <form class="container section" id="emailForm">
         <h3>Contact</h3>
         <hr />
         <div class="form-group">
@@ -95,6 +95,18 @@
 <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-<script></script>
+<script>
+    $("#emailForm").on("submit", function(event){
+        const emailObj = {
+            firstName: $("#firstName").val(),
+            lastName: $("#lastName").val(),
+            email: $("#email").val(),
+            contactReason: $("#contactReason").val(),
+            message: $("#message").val(),
+        };
+
+        $.post("/api/email", emailObj);
+    });
+</script>
 
 </html>

@@ -1,0 +1,25 @@
+{
+  "name": "personalportfolio",
+  "version": "1.0.0",
+  "description": "Address for webpage: https://daysloth.github.io/Personalportfolio/index.html",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaySloth/Personalportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaySloth/Personalportfolio/issues"
+  },
+  "homepage": "https://github.com/DaySloth/Personalportfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14",
+    "path": "^0.12.7"
+  }
+}

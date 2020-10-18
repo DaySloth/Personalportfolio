@@ -1,77 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="icon" type="image/png" href="./assets/img/favicon-32x32.png"/>
-    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Righteous&family=Ubuntu+Condensed&display=swap" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="./assets/img/favicon-32x32.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Righteous&family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 
     <!-- Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com -->
 </head>
-    <body class="main-page">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <a class="navbar-brand" href="./index.html">Allister</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+<body class="main-page">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="/">Allister</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav><!-- End Nav Bar -->
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav><!-- End Nav Bar -->
 
-        <!-- Contact Form -->
-        <form class="container section">
-            <h3>Contact</h3>
-            <hr/>
-            <div class="form-group">
-                <label for="first-name">Name</label>
-                <input type="text" name="name" class="form-control" id="first-name" placeholder="John Doe" required/>
-            </div>
-            <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="your@example.com" required/>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-outline-primary">Submit</button>
-            <div class="contact-logos">
-                <a href="https://github.com/DaySloth" target="_blank"><img src="./assets/img/github.svg" alt="github image"></a>
-                <a href="https://www.linkedin.com/in/allister-rampenthal-523a30155" target="_blank"><img src="./assets/img/linkedin.svg" alt="linkedin image"></a>
-                <a href="https://twitter.com/arampenthal" target="_blank"><img src="./assets/img/twitter.svg" alt="twitter image"></a>
-                <a href="mailto: allisterrampenthal@gmail.com"><img src="./assets/img/mail.svg" alt="email image"></a>
-            </div>
-        </form><!-- End Contact Form -->
+    <!-- Contact Form -->
+    <form class="container section">
+        <h3>Contact</h3>
+        <hr />
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" class="form-control" id="firstName" placeholder="John" required />
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Doe" required />
+        </div>
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" placeholder="your@example.com" required />
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Reason for contact:</label>
+            <select class="form-control" id="contactReason" required>
+                <option>Job Inquiry</option>
+                <option>Suggestions</option>
+                <option>Feedback</option>
+                <option>Personal</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
+        <div class="contact-logos">
+            <a href="https://github.com/DaySloth" target="_blank"><img src="./assets/img/github.svg"
+                    alt="github image"></a>
+            <a href="https://www.linkedin.com/in/allister-rampenthal-523a30155" target="_blank"><img
+                    src="./assets/img/linkedin.svg" alt="linkedin image"></a>
+            <a href="https://twitter.com/arampenthal" target="_blank"><img src="./assets/img/twitter.svg"
+                    alt="twitter image"></a>
+        </div>
+    </form><!-- End Contact Form -->
 
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <p>&copy;2020 Allister Rampenthal</p>
-            </div>
-        </footer>
-    </body>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy;2020 Allister Rampenthal</p>
+        </div>
+    </footer>
+</body>
 
-    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script></script>
+
 </html>

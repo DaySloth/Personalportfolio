@@ -1,5 +1,6 @@
 const nodemailer = require("nodemailer");
 const { mainModule } = require("process");
+const emailHTMLGenerator = require("../template/emailGenerator");
 
 function apiRouter(app){
     app.post("/api/email", function(req, res){
@@ -29,4 +30,6 @@ function apiRouter(app){
 
         sendMail().catch(console.error);
     })
-}
+};
+
+module.exports = apiRouter;

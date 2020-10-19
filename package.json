@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/DaySloth/Personalportfolio#readme",
   "dependencies": {
+    "@sendgrid/mail": "^7.3.0",
     "express": "^4.17.1",
     "nodemailer": "^6.4.14",
     "path": "^0.12.7"

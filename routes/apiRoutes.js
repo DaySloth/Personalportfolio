@@ -13,8 +13,8 @@ function apiRouter(app){
                 port: 587,
                 secure: false,
                 auth:{
-                    user: "daysloth.sendmail@gmail.com",
-                    pass: "Batmanisc00l",
+                    user: "daysloth.mailsend@gmail.com",
+                    pass: "pbdltrpbqxpwjdvp",
                 }
             });
 

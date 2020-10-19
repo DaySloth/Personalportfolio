@@ -9,12 +9,12 @@ function apiRouter(app){
 
         async function sendMail(){
             let transporter = nodemailer.createTransport({
-                host: "smtp.gmail.com",
+                host: "smtp-relay.sendinblue.com",
                 port: 587,
                 secure: false,
                 auth:{
                     user: "daysloth.mailsend@gmail.com",
-                    pass: "pbdltrpbqxpwjdvp",
+                    pass: "JB0GACNvIcda5Ds7",
                 }
             });
 

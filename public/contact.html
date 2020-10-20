@@ -105,7 +105,9 @@
             message: $("#message").val(),
         };
 
-        $.post("/api/email", emailObj);
+        $.post("/api/email", emailObj).then(function(response){
+            console.log(response);
+        });
     });
 </script>
 

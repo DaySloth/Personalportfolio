@@ -1,93 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="icon" type="image/png" href="./assets/img/favicon-32x32.png"/>
-    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Righteous&family=Ubuntu+Condensed&display=swap" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="./assets/img/favicon-32x32.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Righteous&family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 </head>
-    <body class="main-page">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <a class="navbar-brand" href="/">Allister</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+<body class="main-page">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="/">Allister</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About Me</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav><!-- End Nav Bar -->
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About Me</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav><!-- End Nav Bar -->
 
 
-        <!-- Portfolio Card Section -->
-        <div class="container section">
-            <h3>Portfolio</h3>
-            <hr/>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/weather-image.PNG" class="card-img-top" alt="image of weather webpage"/>
-                        <div class="card-body">
-                            <h5 class="card-title">Weather Dashboard</h5>
-                            <p class="card-text">This is a basic weather application that takes in a users input to search for weather using a weather API. The info is then input to the screen</p>
-                            <a href="https://github.com/DaySloth/WeatherApp" target="_blank" class="btn btn-outline-primary">See Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/question-game-image.PNG" class="card-img-top" alt="image of questions game webpage"/>
-                        <div class="card-body">
-                            <h5 class="card-title">The Office Question Game</h5>
-                            <p class="card-text">This project was built as a simple 5 questions game. The app utilizes local storage and JavaScript to dynamically update the HTML elements on the page.</p>
-                            <a href="https://daysloth.github.io/HoriseonMarketing/" target="_blank" class="btn btn-outline-primary">See Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/recipe-image.PNG" class="card-img-top" alt="image of recipe book website"/>
-                        <div class="card-body">
-                            <h5 class="card-title">Food & Drink Search App</h5>
-                            <p class="card-text">Application to search recipes based off of allergies the user might have. It also has the option to add recipes to a recipe book for later viewing.</p>
-                            <a href="https://daysloth.github.io/Food-drink-searchApp/" class="btn btn-outline-primary">See Project</a>
-                        </div>
+    <!-- Portfolio Card Section -->
+    <div class="container section">
+        <h3>Portfolio</h3>
+        <hr />
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/weather-image.PNG" class="card-img-top" alt="image of weather webpage" />
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">This is a basic weather application that takes in a users input to search
+                            for weather using a weather API. The info is then input to the screen</p>
+                        <a href="https://github.com/DaySloth/WeatherApp" target="_blank"
+                            class="btn btn-outline-primary">See Project</a>
                     </div>
                 </div>
             </div>
-        </div><!-- End Portfolio Card Section-->
-
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <p>&copy;2020 Allister Rampenthal</p>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/question-game-image.PNG" class="card-img-top"
+                        alt="image of questions game webpage" />
+                    <div class="card-body">
+                        <h5 class="card-title">The Office Question Game</h5>
+                        <p class="card-text">This project was built as a simple 5 questions game. The app utilizes local
+                            storage and JavaScript to dynamically update the HTML elements on the page.</p>
+                        <a href="https://daysloth.github.io/HoriseonMarketing/" target="_blank"
+                            class="btn btn-outline-primary">See Project</a>
+                    </div>
+                </div>
             </div>
-        </footer>
-    </body>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/recipe-image.PNG" class="card-img-top" alt="image of recipe book website" />
+                    <div class="card-body">
+                        <h5 class="card-title">Food & Drink Search App</h5>
+                        <p class="card-text">Application to search recipes based off of allergies the user might have.
+                            It also has the option to add recipes to a recipe book for later viewing.</p>
+                        <a href="https://daysloth.github.io/Food-drink-searchApp/" class="btn btn-outline-primary"
+                            target="_blank">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
 
-    
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://camo.githubusercontent.com/a21950acc3d22ffd35e2a6d37ce28019a913ca2d9671faf12a29d668b6f2bfd5/68747470733a2f2f692e696d6775722e636f6d2f6241395532504c2e706e67"
+                        class="card-img-top" alt="image of recipe book website" />
+                    <div class="card-body">
+                        <h5 class="card-title">The Littlest Pet Shop</h5>
+                        <p class="card-text">Application to search for a cute pet to adopt. This project features a
+                            login system that will keep you logged in a session and you can save a pet to a database for
+                            future viewing.
+                            Deployed to heroku using a sequelize sql database.
+                        </p>
+                        <a href="https://the-littlest-petshop.herokuapp.com/" class="btn btn-outline-primary"
+                            target="_blank">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
 
-    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://raw.githubusercontent.com/DaySloth/Burger-Devouring-App/main/img/burger-landing.PNG"
+                        class="card-img-top" alt="image of recipe book website" />
+                    <div class="card-body">
+                        <h5 class="card-title">Burger Devouring App</h5>
+                        <p class="card-text">This is a simple app showing my first database work. This application uses
+                            a
+                            sql database to let you order a
+                            burger. Once ordered it will show up on the ordered section where you can devour it.
+                        </p>
+                        <a href="https://damp-beyond-81928.herokuapp.com/" class="btn btn-outline-primary"
+                            target="_blank">See
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div><!-- End Portfolio Card Section-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy;2020 Allister Rampenthal</p>
+        </div>
+    </footer>
+</body>
+
+
+
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </html>
 <!--
 <div class="card text-center" style="width: 18rem;">

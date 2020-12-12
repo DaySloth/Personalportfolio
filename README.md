@@ -1,7 +1,7 @@
 # Personal Portfolio
 Address for webpage: https://daysloth.github.io/Personalportfolio/index.html
 
-![Image of Webpage](./assets/img/readme-img.PNG)
+![Image of Webpage](./public/assets/img/readme-img.PNG)
 
 ## Description 
 

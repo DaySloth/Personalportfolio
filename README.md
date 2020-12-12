@@ -1,5 +1,5 @@
 # Personal Portfolio
-Address for webpage: https://daysloth.github.io/Personalportfolio/index.html
+Address for webpage: https://dashboard.heroku.com/apps/allister-personal-portfolio
 
 ![Image of Webpage](./public/assets/img/readme-img.PNG)
 
